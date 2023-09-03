@@ -48,19 +48,20 @@ Implement pagination
 - Optimized scrolling performance
 - Implemented pagination
 - Added refresh button on Error while loading
-- No extra libs added, updated only exising one
+- No extra libs added, updated only existing one
 
 ## P.S.
-There is always room for improvment, but in respect of time I think it would be cheating to spend more resourses. 
+There is always room for improvement, but in respect of time I think it would be cheating to spend more resourses. 
 So what can be improved?
-My answear is next:
-- Add textstyle constatns, texts and colors to a separate files;
+My answer is next:
+- Move character lit item to separate file
+- Add textstyle constants, texts and colors to a separate files;
 - Add monitoring internet connection and add Dio for example. With this 2 tools app can repeat last unsuccessful request automatically.
 - Add empty state for image loading.
 - Add separate loading indicator for image.
 - Add a UseCase layer between repository and Bloc
 - Add tests for UI and unit test for repository and a bloc
-- Create a more convinient design for app
+- Create a more convenient design for app
 - Add character filter to the App bar
 - Add extra page with more Character info
     
