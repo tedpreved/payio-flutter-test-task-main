@@ -11,10 +11,10 @@ API docs: https://rickandmortyapi.com/documentation
 
 Using clean architecture design pattern
 - Refactor application to your best understanding of the design pattern
-- Fix loading state and fetching data feature - done
-- Find and fix all other bugs and issues - maybe more
-- Add more information about characters - done
-- Optimize scrolling performance - done
+- Fix loading state and fetching data feature 
+- Find and fix all other bugs and issues
+- Add more information about characters 
+- Optimize scrolling performance
 - Implement pagination
 
 ## Optional:
@@ -39,3 +39,28 @@ Implement pagination
 - Keep things clean, simple and fun
 - Use bloc state-management if possible
 - You can fork or clone the repo and share the link (make sure it is public and accessible) 
+
+## What have been done
+- Fixed launch on Android and iOS
+- Fixed loading state and fetching data feature 
+- Fix all bugs found so far
+- Added more information about characters 
+- Optimized scrolling performance
+- Implemented pagination
+- Added refresh button on Error while loading
+- No extra libs added, updated only exising one
+
+## P.S.
+There is always room for improvment, but in respect of time I think it would be cheating to spend more resourses. 
+So what can be improved?
+My answear is next:
+    - Add textstyle constatns, texts and colors to a separate files;
+    - Add monitoring internet connection and add Dio for example. With this 2 tools app can repeat last unsuccessful request automatically.
+    - Add empty state for image loading.
+    - Add separate loading indicator for image.
+    - Add a UseCase layer between repository and Bloc
+    - Add tests for UI and unit test for repository and a bloc
+    - Create a more convinient design for app
+    - Add character filter to the App bar
+    - Add extra page with more Character info
+    
